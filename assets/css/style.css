@@ -1,0 +1,135 @@
+/*
+Theme Name: Start sua carreira
+Theme URI: http://www.startsuacarreira.com.br
+Author: Kenzie Academy BR
+Author URI: https://kenzie.com.br;
+Description: Descrição do thema.
+Version: 1.0
+
+--------------------------------------------
+ESTRUTURAÇÃO BASE
+--------------------------------------------
+**** DECLARAÇÃO DE VARIÁVEIS
+**** ESTILOS GERAIS
+**** BODY
+**** HEADER
+**** FOOTER
+**** PÁGINA INICIAL
+**** EXTRAS
+**** @MEDIA
+
+
+fundo darkmode: #19232f
+fundo info sobre darkmode: #2d3846
+fundo footer darkmode: #131a23
+textos darkmode: #e4e4e4
+borda darkmode: #9fb1c7
+
+*/
+
+/* VARIAVEIS */
+
+
+/*GERAL*/
+html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul,li, a,main{
+    margin: 3px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.row {}
+
+.column {}
+
+.column--esquerda {}
+
+.column--direita {}
+
+.hidden {
+    display: none;
+}
+
+
+/* BODY */
+
+
+/* PÁGINA INICIAL */
+main{}
+main .row{}
+main .column{}
+
+section {}
+section h2 {}
+section p {}
+section ul {}
+section ul li {}
+section ul li p {}
+section ul li a {}
+section ul li h3 {}
+section ul li strong {}
+
+.indoformacoesContatoPortfolio {}
+
+.indoformacoesContatoPotfolio_imagem {
+    text-align: center;
+   
+}
+
+.informacoesContatoPortfolio_imagem img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 100%;
+    text-align: center;
+   
+}
+
+.indoformacoesContatoPotfolio_descricao {
+    text-align: center;
+}
+.indoformacoesContatoPotfolio_descricao h1 {}
+.indoformacoesContatoPotfolio_descricao h2 {}
+.indoformacoesContatoPotfolio_descricao ul {}
+.indoformacoesContatoPotfolio_descricao ul li {}
+.indoformacoesContatoPotfolio_descricao ul li a {}
+
+.indoformacoesExperienciaPotfolio {}
+
+.indoformacoesExperienciaPotfolio_perfil{}
+.indoformacoesExperienciaPotfolio_perfil h2 {}
+.indoformacoesExperienciaPotfolio_perfil p {}
+
+.indoformacoesExperienciaPotfolio_especialidades {}
+.indoformacoesExperienciaPotfolio_especialidades h2 {}
+.indoformacoesExperienciaPotfolio_especialidades ul {}
+.indoformacoesExperienciaPotfolio_especialidades ul li {}
+.indoformacoesExperienciaPotfolio_especialidades ul li p {}
+
+.indoformacoesExperienciaPotfolio_formacao {}
+.indoformacoesExperienciaPotfolio_formacao h2 {}
+.indoformacoesExperienciaPotfolio_formacao ul {}
+.indoformacoesExperienciaPotfolio_formacao ul li {}
+.indoformacoesExperienciaPotfolio_formacao ul li p {}
+
+.informacoesEsperienciasPortfolio_experiencia {}
+.informacoesEsperienciasPortfolio_experiencia h2 {}
+.informacoesEsperienciasPortfolio_experiencia ul {}
+.informacoesEsperienciasPortfolio_experiencia ul li {}
+.informacoesEsperienciasPortfolio_experiencia ul li h3 {}
+.informacoesEsperienciasPortfolio_experiencia ul li strong {}
+.informacoesEsperienciasPortfolio_experiencia ul li p {}
+
+
+/* FOOTER */
+footer {}
+.redeSociais {}
+.redeSociais-lista {}
+.redeSociais-lista-item {}
+.redeSociais-lista-item a {}
+.redeSociais-lista-item img {}
+
+
+/* @MEDIA QUERY */
